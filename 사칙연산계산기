@@ -1,0 +1,32 @@
+option = "" 
+first = 0
+second = 0
+result = 0
+
+print("사칙연산계산기입니다")
+print("원하는 연산기호를 입력해주세요 ex)덧셈, 뺄셈, 나눗셈, 곱셈")
+option = input("")
+
+if option == "덧셈":
+    first = int(input("첫번째 값을 입력해주세요"))
+    second = int(input("두번째 값을 입력해주세요"))
+    result = first + second
+    print(result)
+
+if option == "뺄셈":
+    first = int(input("첫번째 값을 입력해주세요"))
+    second = int(input("두번째 값을 입력해주세요"))
+    result = first - second
+    print(result)    
+
+if option == "곱셈":
+    first = int(input("첫번째 값을 입력해주세요"))
+    second = int(input("두번째 값을 입력해주세요"))
+    result = first * second
+    print(result)
+
+if option == "나눗셈":
+    first = int(input("첫번째 값을 입력해주세요"))
+    second = int(input("두번째 값을 입력해주세요"))
+    result = first/second
+    print(result)
